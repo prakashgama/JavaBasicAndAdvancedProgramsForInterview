@@ -8,6 +8,7 @@ public class ClassMain {
 		//Child c=new Parents();
 		//Parent can get child details
 		Parents p=new Child();
+		System.out.println(p.a);
 		System.out.println(p.getA());
 		p.display();
 		

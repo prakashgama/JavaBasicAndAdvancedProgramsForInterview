@@ -2,7 +2,7 @@ package Inheritance;
 
 public class Parents {
 
-private int a=9;
+public int a=9;
 	
 	public int getA() {
 		return a;

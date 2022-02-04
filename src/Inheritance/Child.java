@@ -2,7 +2,7 @@ package Inheritance;
 
 public class Child extends Parents {
 	
-private int a;
+public int a =1;
 	
 	public int getA() {
 		return a;
