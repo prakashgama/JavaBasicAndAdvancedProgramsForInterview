@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.function.Function;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
@@ -41,6 +42,24 @@ public class FruitsList {
 		
 		System.out.println(map);
 		System.out.println(frequency);
+		
+		List<String> name = new ArrayList<>();
+		name.add("heena");
+		name.add("heena");
+		name.add("yatendra");
+		name.add("xyz");
+		name.add("yatendra");
+		
+		
+		List<Integer> l;
+		
+		
+		
+	Map<Long, String>	t=name.stream().collect(Collectors.groupingBy(Function.identity(),Collectors.counting())).
+			entrySet().stream().collect(Collectors.toMap(Entry::getValue, Entry::getKey,(x,y)->x,HashMap::new));
+		
+		System.out.println(t);
+		
 		/*
 		 * System.out.println(test.stream().collect(Collectors.toMap(t->t.charAt(0),
 		 * t->t, (x1, x2) -> fruits.addAll(Arrays.asList([x1,x2]))));

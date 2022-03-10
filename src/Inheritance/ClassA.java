@@ -18,9 +18,9 @@ public class ClassA extends ClassB {
 		
 	}
 	
-	public void akash()
+	public static void  akash()
 	{
-		
+		System.out.println("Sstatic A");
 	}
 
 }

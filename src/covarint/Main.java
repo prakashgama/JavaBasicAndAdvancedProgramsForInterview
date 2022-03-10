@@ -1,4 +1,7 @@
 package covarint;
+
+import java.util.concurrent.atomic.AtomicInteger;
+
 class A {} 
 class B extends A {} 
   
@@ -24,6 +27,8 @@ public class Main
 { 
     public static void main(String args[]) 
     { 
+    	
+    	AtomicInteger t=new AtomicInteger();
        Base base = new Base(); 
     A a=   base.fun(); 
   

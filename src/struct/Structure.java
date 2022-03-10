@@ -1,6 +1,6 @@
 package struct;
 
-import java.sql.Struct;
+
 
 public class Structure {
 

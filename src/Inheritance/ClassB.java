@@ -23,4 +23,9 @@ public void prakash()
 {
 	
 }
+
+public static void  akash()
+{
+	System.out.println("Sstatic B");
+}
 	}

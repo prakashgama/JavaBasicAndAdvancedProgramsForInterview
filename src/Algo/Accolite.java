@@ -16,7 +16,8 @@ public class Accolite {
 		 * Find non-repeating number (like- 7)
 		 * arr[]={1,2,2,1,8,8,7,35,35,24,24};(restrictions ->no-collections,no-sorting)
 		 */
-		int arr[]={1,2,2,1,8,8,7,35,35,24,24};
+		System.out.println(Integer.MIN_VALUE);
+		int arr[]={1,2,2,7,8,8,7,35,35,24,24};
 		System.out.println(findUniq(arr));
 	int	abc[]={12, 35, 1, 10, 34, 1,76,99,98};
 		
@@ -24,6 +25,9 @@ public class Accolite {
 		
 	int	pair[]={1,4,2,5,8,9,7,35,64,24};
 		System.out.println(findPairofSum(pair, 10));
+		
+		
+		System.out.println("2nd Largest"+print2largest(abc));
 	}
 
 	
@@ -89,7 +93,40 @@ public class Accolite {
 	}
 	
 	
-	
+	public static int print2largest(int arr[])
+{
+int i, first, second;
+int arr_size=arr.length;
+/* There should be atleast two elements */
+if (arr_size < 2) {
+System.out.print(" Invalid Input ");
+return 0;
+}
+
+first = second = Integer.MIN_VALUE;
+for (i = 0; i < arr_size; i++) {
+/* If current element is greater than
+first then update both first and second */
+if (arr[i] > first) {
+second = first;
+first = arr[i];
+}
+
+/* If arr[i] is in between first and
+second then update second  */
+else if (arr[i] > second && arr[i] != first)
+second = arr[i];
+}
+
+if (second == Integer.MIN_VALUE)
+System.out.print("There is no second largest"
+    + " element\n");
+else
+System.out.println("The second largest element"
+    + " is " + second);
+
+return second;
+}
 	
 	
 	

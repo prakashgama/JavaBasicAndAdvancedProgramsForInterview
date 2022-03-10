@@ -29,7 +29,7 @@ public class FruitsList {
 		Map<Character, List<String>> map = test.stream().collect(Collectors.groupingBy(d->d.toUpperCase().charAt(0),
 				HashMap::new, Collectors.toList()));
 		
-		
+		System.out.println(map);
 		String str="Prakash";
 		
 		
@@ -39,7 +39,7 @@ public class FruitsList {
 	               .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
 		
 		
-		System.out.println(map);
+		System.out.println(frequency);
 		/*
 		 * System.out.println(test.stream().collect(Collectors.toMap(t->t.charAt(0),
 		 * t->t, (x1, x2) -> fruits.addAll(Arrays.asList([x1,x2]))));

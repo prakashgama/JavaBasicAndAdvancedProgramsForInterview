@@ -1,0 +1,104 @@
+JAVA-->
+OOPS
+Collection
+Exception Handling
+String
+Stream API
+Functional Interfaces
+Multithreading
+JVM arcitecature
+Inheritance
+Polymorphsim
+Abstraction
+Is A or Has A
+Garbage Collection
+Class Loader
+
+
+
+
+Spring MVC
+Life cycle of Bean
+Dispater servlet
+Dependency Injection
+IOC
+Scope
+Circular dependency
+Context
+
+
+SPRINGBOOT
+@SpringBootApplication annotation
+Difference between service and component or repository
+Content negositation
+Cors Configuration
+Security Configuration
+yml or properties
+profile
+Configure differnt server from tomcat
+
+Spring AOP->
+pointCut
+Before
+After
+Why or where?
+Disadvantage
+Controller Advice
+
+Mockito-->
+Disadvantage final static
+Test void method
+mock repository 
+@Spy 
+@mock bean
+benefit
+Integration testing
+
+
+Java Design Pattern
+Singleton
+Factory
+Adaptar
+Builder
+
+Solid Priciple
+Kiss Principle
+Dry Principle
+
+
+
+Hibernate
+Database Connection
+Multiple Database Connection
+Caching
+JOIN
+Mapping
+Transaction
+Compostie Key or Embeded Key
+
+Oracle
+dense_rank()
+Joins
+Indexs
+procedure
+function
+Triggers
+
+
+
+AWS
+S3
+Api Gateway
+Lambda
+
+
+Data Structure
+Linked List
+Tree
+array
+2 d array
+Queue
+Stack
+Dictionary
+Vector
+
