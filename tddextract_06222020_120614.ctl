@@ -1,1 +1,0 @@
-"Remarketing","DealerDirect","RemarketingDataLake","06/22/2020 00:12:06 PM","External","tddextract_06222020_120614.xls","NA","NA","Record Count","593"
